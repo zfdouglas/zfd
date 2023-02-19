@@ -1,20 +1,23 @@
+import { Link } from "react-router-dom";
+
 interface NavButtonProps {
   backgroundColor?: string;
   textColor?: string;
   title: string;
-  onClick: () => void;
+  url: string;
 }
 export const NavButton = (props: NavButtonProps) => {
-  const { backgroundColor, textColor, title, onClick } = props;
+  const { backgroundColor, textColor, title, url } = props;
   return (
-    <button
-      style={{
-        color: textColor && textColor,
-        backgroundColor: backgroundColor && backgroundColor,
-      }}
-      onClick={onClick}
-    >
-      {title}
-    </button>
+    <Link to={url}>
+      <button
+        style={{
+          color: textColor && textColor,
+          backgroundColor: backgroundColor && backgroundColor,
+        }}
+      >
+        {title}
+      </button>
+    </Link>
   );
 };
