@@ -1,0 +1,34 @@
+.NavBar {
+  width: 100%;
+  min-height: 7vh;
+  background-color: #141820;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.NavBar button {
+  color: #63b8ff;
+  border: 2px solid #63b8ff;
+  background-color: transparent;
+  padding: 1vh 2vw;
+  margin: 0.5vh 1vw;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.NavBar button:hover {
+  background-color: #232a38;
+  cursor: pointer;
+}
+.NavBarImage {
+  width: 68%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding-top: 0.5%;
+}
+.logo {
+  width: 5vw;
+}

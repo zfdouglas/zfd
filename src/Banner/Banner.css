@@ -1,0 +1,35 @@
+.wrapper {
+  /*This part is important for centering*/
+  margin-top: 10%;
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 14ch;
+  color: #63b8ff;
+  font-size: 3rem;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Red Hat Mono", monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.Sub-Header {
+  color: #99ccff;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
