@@ -32,3 +32,6 @@
 .logo {
   width: 5vw;
 }
+.logo:hover {
+  cursor: pointer;
+}

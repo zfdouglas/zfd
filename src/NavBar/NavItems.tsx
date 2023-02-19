@@ -1,18 +1,18 @@
 export interface NavItem {
   title: string;
-  action: () => void;
+  url: string;
 }
 export const NavItems: NavItem[] = [
   {
     title: "RESUME",
-    action: () => {},
+    url: "/resume",
   },
   {
     title: "CONTACT",
-    action: () => {},
+    url: "/contact",
   },
   {
     title: "WORK",
-    action: () => {},
+    url: "/work",
   },
 ];

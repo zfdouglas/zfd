@@ -1,19 +1,32 @@
+.Type {
+  display: flex;
+  color: #63b8ff;
+  font-size: 3rem;
+  margin: 2% auto;
+}
+
 .wrapper {
-  /*This part is important for centering*/
   margin-top: 10%;
-  display: grid;
+  width: 45%;
+  border-radius: 10px;
+  margin: 10% auto 5%;
+  display: flex;
+  background-color: #141820;
+  font-family: "Red Hat Mono", monospace;
   place-items: center;
 }
 
 .typing-demo {
-  width: 14ch;
-  color: #63b8ff;
-  font-size: 3rem;
+  width: 12ch;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
+  color: #63b8ff;
+  font-size: 3rem;
   font-family: "Red Hat Mono", monospace;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 @keyframes typing {
@@ -32,4 +45,13 @@
   color: #99ccff;
   font-size: 1.5rem;
   letter-spacing: 2px;
+  margin: auto;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.GatorSign {
+  color: #63b8ff;
+  font-size: 3rem;
+  width: 10%;
 }
