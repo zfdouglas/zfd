@@ -1,0 +1,15 @@
+.SocialMediaBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.SocialMediaBar img {
+  height: 30px;
+  margin: 5px;
+}
+
+.SocialMediaBar img:hover {
+  height: 30px;
+  cursor: pointer;
+}

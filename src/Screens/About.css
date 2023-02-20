@@ -1,0 +1,43 @@
+.BasicBio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.BasicBio h1 {
+  color: #63b8ff;
+}
+
+.BioPhoto {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.BioPhoto img {
+  width: 70%;
+  height: 85%;
+  margin: 5%;
+  border-radius: 100%;
+}
+
+.BioSummary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #141820;
+  width: 45%;
+  border: 2px solid #2d333e;
+  border-radius: 5px;
+  margin: 4% 6%;
+}
+.BioSummary div {
+  color: rgb(224, 226, 230);
+  margin: 3%;
+  font-weight: 500;
+}
+.BioSummary h1 {
+  padding: 1%;
+  margin-top: 0;
+  width: 98%;
+  background-color: #20252d;
+  border-bottom: 2px solid #2d333e;
+}

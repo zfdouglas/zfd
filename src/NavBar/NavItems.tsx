@@ -4,8 +4,8 @@ export interface NavItem {
 }
 export const NavItems: NavItem[] = [
   {
-    title: "RESUME",
-    url: "/resume",
+    title: "ABOUT",
+    url: "/about",
   },
   {
     title: "CONTACT",
