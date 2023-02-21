@@ -1,4 +1,5 @@
 import me from "../assets/mecropped.jpg";
+import { ChipBar } from "../ChipsBar/ChipBar";
 import { SocialBar } from "../Common/SocialBar";
 import { About as about } from "../Copy/About";
 
@@ -19,6 +20,7 @@ export const About = () => {
           <SocialBar />
         </div>
       </div>
+      <ChipBar />
     </div>
   );
 };

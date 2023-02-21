@@ -1,0 +1,19 @@
+.Container {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #141820;
+  border: 2px solid #2d333e;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.ContainerHeader {
+  background-color: #20252d;
+}
+.ContainerHeader h1 {
+  padding: 1%;
+  color: #e0e2e6;
+  margin: 0 auto;
+}
