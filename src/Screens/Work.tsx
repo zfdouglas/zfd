@@ -11,6 +11,7 @@ export const Work = () => {
           <PieceBox
             title={"vDollHouse"}
             description={"A React frontend for a Home Decoration startup"}
+            link={"https://github.com/zfdouglas/vdollhouse"}
             tools={["Typescript", "HTML", "CSS", "Material UI", "React Router"]}
           />
           <PieceBox
@@ -18,6 +19,7 @@ export const Work = () => {
             description={
               "A spring boot api that will serve a future Recipe app, utilizes a MongoDB database"
             }
+            link={"https://github.com/zfdouglas/wellfed"}
             tools={["Java", "Spring Boot", "MongoDB"]}
           />
           <PieceBox
@@ -25,10 +27,12 @@ export const Work = () => {
             description={
               "A spring boot api that serves a Character Aggregator and Creation app"
             }
+            link={""}
             tools={["Java", "Spring Boot", "MongoDB"]}
           />
           <PieceBox
             title={"Be Our Guest"}
+            link={"https://github.com/zfdouglas/beourguest"}
             description={"A React frontend Personality Quiz Application"}
             tools={["Javascript", "HTML", "CSS"]}
           />
