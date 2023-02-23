@@ -15,4 +15,8 @@ export const NavItems: NavItem[] = [
     title: "PORTFOLIO",
     url: "/portfolio",
   },
+  {
+    title: "BLOG",
+    url: "/blog",
+  },
 ];
