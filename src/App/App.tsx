@@ -6,6 +6,7 @@ import { Home } from "../Screens/Home";
 import { About } from "../Screens/About";
 import { Error } from "../Screens/Error";
 import { Contact } from "../Screens/Contact";
+import { Work } from "../Screens/Work";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="portfolio" element={<Work />} />
+
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
