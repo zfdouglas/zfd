@@ -1,0 +1,46 @@
+.PieceBox {
+  border: 3px solid #20252d;
+  border-radius: 10px;
+  color: white;
+  width: 45%;
+  margin: 1% auto 1% auto;
+  display: flex;
+  flex-direction: column;
+}
+.PieceBox img {
+  width: 100%;
+}
+.PieceBox a {
+  margin: 2%;
+  width: 7%;
+  cursor: pointer;
+}
+.PieceBox h3 {
+  display: inline;
+  margin: 1% 2%;
+  padding: 2%;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Description {
+  margin: 2%;
+  margin-bottom: 5%;
+}
+
+.PieceBox footer {
+  border-top: 3px solid #20252d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 2%;
+  margin-top: auto;
+}
+
+.PieceBox footer .Chip {
+  display: flex;
+}
